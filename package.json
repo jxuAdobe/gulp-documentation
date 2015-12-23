@@ -4,7 +4,7 @@
   "version": "2.1.0",
   "author": "Tom MacWright",
   "dependencies": {
-    "documentation": "^3.0.0",
+    "documentation": "https://github.com/jxuAdobe/documentation.git",
     "through2": "^0.6.3",
     "vinyl": "^0.4.6"
   },

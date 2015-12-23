@@ -44,7 +44,9 @@ module.exports = function (options) {
   options = options || {};
   var docOptions = {
     github : !!(options.github || options.g),
-    shallow: options.shallow || false
+    private : !!(options.private || options.p),
+    shallow: options.shallow || false,
+    url: options.url || undefined
   };
   var files = [];
   options.format = options.format || 'html';
